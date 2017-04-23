@@ -71,6 +71,7 @@ make distclean
     --config-cache \
     --localstatedir=/var \
     --with-layout=GNU \
+    --enable-bcmath \
     --disable-rpath
 
 make clear 
